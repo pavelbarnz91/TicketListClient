@@ -1,0 +1,127 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Arial';
+}
+
+.page-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 5%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+/* TICKET-LIST styles */
+.ticket-list {
+    width: 900px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+
+    border-radius: 10px;
+}
+
+.ticket-list__header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ADD TICKET BTN */
+.add-ticket-btn {
+    width: 150px;
+    height: 50px;
+
+    border-radius: 10px;
+    border: 1px solid black;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+.add-ticket-btn:hover {
+    background-color: rgb(184, 252, 184);
+}
+.add-ticket-btn:active {
+    background-color: rgb(124, 212, 124);
+}
+
+
+/*TICKET-AREA*/
+.ticket-area {
+    width: 100%;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+/*TICKETS*/
+.ticket {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.ticket-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket:first-child {
+    margin-top: 0;
+}
+
+.ticket__left-side, .ticket__right-side {
+    display: flex;
+    align-items: center;
+}
+
+.ticket__text {
+    cursor: pointer;
+}
+
+.ticket__btns {
+    padding-left: 10px;
+    display: flex;
+}
+
+.ticket__btn {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+    margin-left: 10px;
+
+    cursor: pointer;
+}
+
+.ticket__check-box {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.ticket__edit-btn {
+    background: url('../images/pencil.png') center/20px no-repeat;
+}
+
+.ticket__delete-btn {
+    background: url('../images/delete.png') center/20px;
+}
+
+.checked {
+    background: url('../images/check.png') center/20px no-repeat;
+}
+
+.ticket__description-box {
+    padding-left: 40px;
+    width: 60%;
+    font-size: 16px;
+}
