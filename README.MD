@@ -1,0 +1,1 @@
+[![Build and Deploy](https://github.com/pavelbarnz91/TicketListClient/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/pavelbarnz91/TicketListClient/actions/workflows/build.yml)
